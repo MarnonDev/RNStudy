@@ -44,9 +44,9 @@ export default class BottomTabViewTest extends Component {
         );
     };
 
-    _renderIcon = ({ route }: any) => {
+    _renderIcon = ({ route }) => {
         return (
-            <Image source={route.icon} style={{height:24,width:24,}}/>
+            <Image source={{ uri : route.icon}} style={{height:24,width:24,}}/>
         );
     };
 
